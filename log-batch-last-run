@@ -1,0 +1,2 @@
+
+ECHO Last run: %date% %time% > batch.log 
