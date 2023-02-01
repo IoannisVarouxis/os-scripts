@@ -1,2 +1,3 @@
+REM %~dp0 returns the full directory path of the .bat
 
-ECHO Last run: %date% %time% > batch.log 
+ECHO Last run: %date% %time% > %~dp0batch.log 
